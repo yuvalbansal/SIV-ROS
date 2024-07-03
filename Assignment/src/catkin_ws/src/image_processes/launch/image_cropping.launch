@@ -1,0 +1,7 @@
+<launch>
+
+	<node pkg="image_processes" type="webcam_publisher.py" name="webcam_publisher" />
+	<node pkg="image_processes" type="webcam_cropper.py" name="webcam_cropper" />
+	<node pkg="image_processes" type="webcam_viewer.py" name="webcam_viewer" />
+
+</launch>
